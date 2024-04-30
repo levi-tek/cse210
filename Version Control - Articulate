@@ -1,0 +1,7 @@
+1. Version control is an history tracker of a software project made by a software developer.
+
+2.Version control makes it easier for miltiple devlopers to work on one project at a time, it helps keep track and know the history of every changes made by each developer
+
+3. An application of version control and how they can be used are making changes, adding files, commitng files, pushing and pulling files
+
+4. git add ., git commit, git push, git status
