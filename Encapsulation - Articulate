@@ -1,0 +1,20 @@
+Encapsulation is the process of securing your code just like putting it in a capsule to restrict other code from havng acces to it.
+
+Some benefit of encapsulatio can be found below:
+* it enhances security: Hiding the internal state of objects prevents unauthorized access and manipulation
+
+*it creates easy adaptation: Encapsulation makes it easier for designers to make changes to the code without risking compatibility. This facilitates successful code evolution over time. 
+
+*it creates easier maintenance: You can develop, test, and debug encapsulated objects independently. Encapsulation can be especially useful in maintaining large data sets.
+
+
+An example of encapsulation is:
+public class Reference
+{
+    //Private class inside the propieties to not affect the working of the program
+    private string _book;
+    private string _chapter;
+    private string _verse;
+
+    private string _verse2;
+
