@@ -1,0 +1,41 @@
+Polymorphism refers to the idea that an entity in a code such variable, function or object can have more than one form.
+
+some benefits of Polymorphism are:
+It assists the developer to reprocess the program codes. It means that the old codes and classes written once confirmed and executed can be reused as necessary, which saves a programmer’s time. Thereby these codes and related classes may be relevant to several other methods.
+Only one variable can be applied for storing multiple data types such as Int, Float, Double, Long, etc. It makes it easier to search and implement these types of variables used by the users.
+Simple debugging the code.
+It helps to maintain and diminish the coupling between various functionalities.
+Offers flexibility to the programmers to write programs which uses only one method for many executions on the basis of need. Here, thereby agreeing on the interface type, this method can perform inversely for different inputs.
+It offers one of the greatest advantages: it permits the programming code to extend itself to make use of the previous program and save the developers’ time and effort.
+This technique is the core theory of OOPs languages which is also applied for programming different forms of big execution of codes.
+This Polymorphism feature allows programming to become faster and resourceful to develop codes.
+Polymorphism advantages say it is inherently good that reduces coupling and maximizing reusability to code a readable program. The performance may be a little hampered in a few cases using polymorphism, but it should not be considered that we need not apply it. It helps code maintenance and easy for reading later stored in a structured way.
+
+An example of polymophism is:
+public class Rectangle : Shape // Square child class of Shape(form)
+{
+    //Protect class inside the propieties to not affect the working of the program (only the inherit class)
+    //protected string _color;
+
+    //Propieties from Square Class
+    private double _width;
+    private double _lenght;
+
+    //------------------ Constructors section (templates)--------------
+
+    //The default Rectangle when we create (only 1 parameter from Shape)
+    public Rectangle(string colorFromShape) : base(colorFromShape)
+    {
+        //Value from Rectangle class (this class)
+        _width = 0;
+        _lenght = 0;
+    }
+
+    //Rectangle with 2 parameters
+    public Rectangle(string colorFromShape, double widthDecimal) : base(colorFromShape)
+    {
+        //Value from Rectangle class (this class)
+        _width = widthDecimal;
+        _lenght = 0;
+    }
+
