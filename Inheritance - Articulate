@@ -1,0 +1,25 @@
+Inheritance is the capabilty of a class to derive its properties and characteristics from another class.
+
+
+some benefits of inheritances are:
+* Frequent use of code written once, i.e. code reusability.
+* One superclass can be used for the number of subclasses in a hierarchy.
+* No changes to be done in all base classes; just do changes in parent class only.
+* Inheritance is used to generate more dominant objects.
+* Inheritance avoids duplicity and data redundancy.
+* Inheritance is used to avoid space complexity and time complex
+
+an example of inheritance is:
+sing System;
+ 
+// single inheritance
+class Animal {
+    public void Eat() {
+        Console.WriteLine("Animal is eating.");
+    }
+}
+ 
+class Dog : Animal {
+    public void Bark() {
+        Console.WriteLine("Dog is barking.");
+    }
